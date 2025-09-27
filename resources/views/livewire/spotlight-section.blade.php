@@ -4,7 +4,7 @@
     <div class="col-span-1 md:col-span-8 bg-gray-200">
       <div class="grid grid-cols-1 md:grid-cols-6 gap-2 p-2">
         <!-- Geometric Pattern Column -->
-        <div class="col-span-2 md:col-span-1 border p-5 flex items-center">
+        <div class="col-span-2 md:col-span-2 border p-5">
           <div class="w-full h-32 bg-gradient-to-br from-gray-300 to-gray-400 rounded flex items-center justify-center">
             <div class="grid grid-cols-6 gap-1 opacity-60">
               @for ($i = 0; $i < 12; $i++)
@@ -14,7 +14,7 @@
           </div>
         </div>
         <!-- Main Content Column -->
-        <div class="col-span-1 md:col-span-5 border p-5">
+        <div class="col-span-1 md:col-span-4 border p-5">
           <div class="p-6 flex flex-col justify-between h-full">
             <div class="space-y-4">
               <h5 class="text-xl font-bold text-black leading-tight">
@@ -48,21 +48,62 @@
           <div>
             <p>Egypt: Increased Labor Inspections</p>
           </div>
-          <div class="mt-4">
-            <a href="#" class="text-blue-600 hover:underline text-sm font-medium inline-flex items-center">
-              Read more 
-              <span class="ml-1">→</span>
-            </a>
+        </div>
+      </div>
+
+       <div class="border-l border-b border-gray-400 p-5">
+        <div class="flex flex-col gap-4">
+          <div class="date">
+            <p>September 25, 2025 | Burundi</p>
+          </div>
+          <div>
+            <p>Egypt: Increased Labor Inspections</p>
           </div>
         </div>
       </div>
-      <div class="space-y-3">
-        @for ($i = 0; $i < 4; $i++)
-          <div class="p-5">
-            <h2 class="text-2xl font-bold mb-2">Spotlight</h2>
-            <p class="text-gray-600 text-sm">Latest Updates</p>
+
+       <div class="border-l border-b border-gray-400 p-5">
+        <div class="flex flex-col gap-4">
+          <div class="date">
+            <p>September 25, 2025 | Burundi</p>
           </div>
-        @endfor
+          <div>
+            <p>Egypt: Increased Labor Inspections</p>
+          </div>
+        </div>
+      </div>
+
+       <div class="border-l border-b border-gray-400 p-5">
+        <div class="flex flex-col gap-4">
+          <div class="date">
+            <p>September 25, 2025 | Burundi</p>
+          </div>
+          <div>
+            <p>Egypt: Increased Labor Inspections</p>
+          </div>
+        </div>
+      </div>
+
+        <div class="border-l border-b border-gray-400 p-5">
+          <div class="flex flex-col gap-4">
+            <div class="date">
+              <p>September 25, 2025 | Burundi</p>
+            </div>
+            <div>
+              <p>Egypt: Increased Labor Inspections</p>
+            </div>
+          </div>
+
+           <div class="border-l border-b border-gray-400 p-5">
+        <div class="flex flex-col gap-4">
+          <div class="date">
+            <p>September 25, 2025 | Burundi</p>
+          </div>
+          <div>
+            <p>Egypt: Increased Labor Inspections</p>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
   </div>

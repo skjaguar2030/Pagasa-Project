@@ -17,10 +17,10 @@
     x-init="start()"
     @mouseenter="stop()"
     @mouseleave="start()"
-    class="max-w-7xl mx-auto flex items-center justify-between px-4 py-2"
+    class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between py-2"
   >
     <!-- LEFT: Orange bell + label -->
-    <div class="flex items-center flex-shrink-0 mr-4">
+    <div class="flex items-center flex-shrink-0 mr-4 border-r border-gray-300 border-h pr-4">
       <svg class="h-5 w-5 text-orange-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M15 17H9" stroke="#FB923C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         <path d="M12 3C9.2 3 7 5.2 7 8V11C7 13.6 5.5 15.8 3 16.5V18H21V16.5C18.5 15.8 17 13.6 17 11V8C17 5.2 14.8 3 12 3Z" stroke="#FB923C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>

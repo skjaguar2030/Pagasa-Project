@@ -5,6 +5,8 @@
   <livewire:spotlight-section /> 
 
 
+
+  <livewire:employers-individuals />
   <livewire:footer />
 </div>
 
